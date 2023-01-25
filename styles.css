@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    height:100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 6fr;
+}
+
+.header {
+    background-color: aqua;
+    grid-column: 2/3;
+}
+
+.action-header {
+    background-color: black;
+    grid-column: 2/3;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-row: 1/4;
+}
+
+.body {
+    background-color: blueviolet;
+}
