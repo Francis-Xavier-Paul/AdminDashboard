@@ -33,9 +33,13 @@
     gap: 1em;
     flex: 1;
 }
+.search svg {
+    height: 2em;
+}
 
 #input-search {
     flex: 1;
+    border-radius: 15px;
 }
 
 .profile {
@@ -44,12 +48,57 @@
     align-items: center;
 }
 
+.profile svg {
+    height: 2em;
+    padding-right: 0.8em;
+}
+
+#profileLowRes {
+    height: 3em;
+}
+
 .action-header {
     background-color: var(--color-secondary-bg);
     grid-column: 2/3;
     box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 15%);
     position: relative;
+    display: flex;
+    padding: 0 2em 1em;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.profileMain {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.profileMain img {
+    height: 5.5em;
+}
+
+.actionButtons-Header {
+    display: flex;
+    gap: 1em;
+}
+
+.btnHeader {
+    border-radius: 22px;
+    box-shadow: 0px 1px 1px rgba(0,0,0, 30%);
+    color: #ffffff;
+    background: #B10F2E;
+    padding: 12px 20px 12px 20px;
+    text-decoration: none;
+    border: none;
+    width: 6em;
+    font-weight: bold
+}
+
+.btnHeader:hover {
+    background: #d1173c;
+    text-decoration: none;
+  }
 
 .sidebar {
     background-color: var(--color-primary-bg);
