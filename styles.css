@@ -1,4 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary-bg: #B10F2E;
+    --color-secondary-bg: #FDFFFF;
+    --color-tertiary-bg: #E9E7EF;
+
+}
+
+
 .container {
+    font-family: 'Rubik', sans-serif;
     display: grid;
     height:100vh;
     grid-template-columns: 1fr 4fr;
@@ -6,20 +20,45 @@
 }
 
 .header {
-    background-color: aqua;
+    background-color: var(--color-secondary-bg);
     grid-column: 2/3;
+    display: flex;
+    column-gap: 10%;
+    margin: 0 2em;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    gap: 1em;
+    flex: 1;
+}
+
+#input-search {
+    flex: 1;
+}
+
+.profile {
+    display: flex;
+    gap: 1em;
+    align-items: center;
 }
 
 .action-header {
-    background-color: black;
+    background-color: var(--color-secondary-bg);
     grid-column: 2/3;
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 15%);
+    position: relative;
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: var(--color-primary-bg);
+    color: var(--color-secondary-bg);
     grid-row: 1/4;
+    box-shadow: 5px 0px 10px 0px rgb(0 0 0 / 40%);
+    position: relative;
 }
 
 .body {
-    background-color: blueviolet;
+    background-color: var(--color-tertiary-bg);
 }
