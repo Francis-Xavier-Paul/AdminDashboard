@@ -26,6 +26,7 @@
     column-gap: 10%;
     margin: 0 2em;
     align-items: center;
+    padding: 0.2em;
 }
 
 .search {
@@ -40,6 +41,7 @@
 #input-search {
     flex: 1;
     border-radius: 15px;
+    background-color: var(--color-tertiary-bg);
 }
 
 .profile {
@@ -106,6 +108,22 @@
     grid-row: 1/4;
     box-shadow: 5px 0px 10px 0px rgb(0 0 0 / 40%);
     position: relative;
+}
+
+#mainHeader {
+    font-size: 2.6em;
+    padding: 0.4em 0.2em 1.3em;
+}
+
+.sideNav {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding: 0.5em 2em 1em;
+}
+
+.sideNav img {
+    height: 1.5em;
 }
 
 .body {
