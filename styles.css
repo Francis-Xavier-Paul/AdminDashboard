@@ -139,7 +139,7 @@
 .bodyHeading {
     font-size: 1.3em;
     font-weight: 500;
-    margin: 1.5em 1em 0.8em;
+    margin: 1.5em 1em 0.5em;
 }
 
 .cardBody{
@@ -181,6 +181,55 @@
 }
 
 .secondaryBar {
-    background-color: aquamarine;
+    background-color: var(--color-tertiary-bg);
+}
+
+.announcementHeading {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 1.5em 0.5em 0.5em;
+}
+
+.announcementBody {
+    background-color: var(--color-secondary-bg);
+    border-radius: 10px;
+    padding: 2em;
+    font-size: 0.8em;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 75%;
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 15%)
+}
+
+
+.trendingHeading {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 1.5em 0.5em 0.5em;
+}
+
+.trendingCard {
+    background-color:var(--color-secondary-bg);
+    padding: 1.7em;
+    width: 75%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 15%);
+    margin-right: 1em;
+
+}
+
+.trendingProfile {
+    font-size: 0.8em;
+    display: flex;
+    gap: 0.8em;
+}
+
+.trendingProfile img {
+    height: 3.5em;
 }
 
